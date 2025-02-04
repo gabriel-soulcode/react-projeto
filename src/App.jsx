@@ -1,13 +1,12 @@
 import './App.css';
 import Header from './components/Header/Header';
+import PerfilUsuario from "./components/PerfilUsuario/PerfilUsuario";
 
 function App() {
   return (
     <>
       <Header />
-      <Header></Header>
-      <h1>Oi</h1>
-      <h2>Olá</h2>
+      <PerfilUsuario />
     </>
   );
 }
