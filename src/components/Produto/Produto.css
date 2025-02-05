@@ -1,0 +1,12 @@
+.produto {
+  width: 300px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.produto img {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
