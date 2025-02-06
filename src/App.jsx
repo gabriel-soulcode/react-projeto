@@ -4,6 +4,7 @@ import Button from "./components/Button/Button";
 import Header from "./components/Header/Header";
 import ListaProdutos from "./components/ListaProdutos/ListaProdutos";
 import PerfilUsuario from "./components/PerfilUsuario/PerfilUsuario";
+import ListaTarefas from "./components/ListaTarefas/ListaTarefas";
 
 function App() {
   // const carregando = false;
@@ -96,6 +97,9 @@ function App() {
 
       <h2>Formulário</h2>
       <Formulario />
+
+      <h2>Tarefas</h2>
+      <ListaTarefas />
 
     </div>
   );
