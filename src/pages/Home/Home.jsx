@@ -10,6 +10,8 @@ export default function Home() {
       <br />
       <Link to="/estoque">Estoque</Link>
       <br />
+      <Link to="/vendas">Vendas</Link>
+      <br /><br />
 
       <Button variant="danger">Saiba mais</Button>
     </div>
