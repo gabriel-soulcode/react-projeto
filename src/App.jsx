@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Cadastro from "./pages/Cadastro/Cadastro";
 import NotFound from "./pages/NotFound/NotFound";
+import Estoque from "./pages/Estoque/Estoque";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/estoque" element={<Estoque />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

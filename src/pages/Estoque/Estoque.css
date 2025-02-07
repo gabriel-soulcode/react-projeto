@@ -1,0 +1,9 @@
+.tb-estoque {
+  border-collapse: collapse;
+}
+
+.tb-estoque td,
+.tb-estoque th {
+  border: 2px solid gray;
+  padding: 5px 10px;
+}
