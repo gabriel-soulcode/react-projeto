@@ -11,9 +11,8 @@ export default function Home() {
       <Link to="/estoque">Estoque</Link>
       <br />
       <Link to="/vendas">Vendas</Link>
-      <br /><br />
-
-      <Button variant="danger">Saiba mais</Button>
+      <br />
+      <Link to="/login">Login</Link>
     </div>
   );
 }
