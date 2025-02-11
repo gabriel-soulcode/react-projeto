@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   const { handleSubmit, register, formState: { errors } } = useForm();
@@ -13,6 +14,7 @@ export default function Login() {
   return (
     <Container>
       <h1>Login</h1>
+      <Link to="/">Home</Link>
 
       <Form onSubmit={handleSubmit(enviarLogin)} className="mt-4">
         <Form.Group className="mb-3" controlId="email">

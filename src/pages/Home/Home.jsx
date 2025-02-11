@@ -13,6 +13,8 @@ export default function Home() {
       <Link to="/vendas">Vendas</Link>
       <br />
       <Link to="/login">Login</Link>
+      <br />
+      <Link to="/calendario">Calendario</Link>
     </div>
   );
 }
