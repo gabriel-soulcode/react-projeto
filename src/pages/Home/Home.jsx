@@ -15,6 +15,8 @@ export default function Home() {
       <Link to="/login">Login</Link>
       <br />
       <Link to="/calendario">Calendario</Link>
+      <br />
+      <Link to="/produtos">Produtos</Link>
     </div>
   );
 }

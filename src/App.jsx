@@ -7,6 +7,7 @@ import Estoque from "./pages/Estoque/Estoque";
 import Vendas from "./pages/Vendas/Vendas";
 import Login from "./pages/Login/Login";
 import Calendario from "./pages/Calendario/Calendario";
+import Produtos from "./pages/Produtos/Produtos";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/vendas" element={<Vendas />} />
         <Route path="/login" element={<Login />} />
         <Route path="/calendario" element={<Calendario />} />
+        <Route path="/produtos" element={<Produtos />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
